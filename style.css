@@ -1,5 +1,5 @@
 /* share */
-
+html{scroll-behavior:smooth;}
 
 .navbar{
     background-color: #393d46 !important; 
@@ -138,6 +138,16 @@ font-weight:bold;
 
 .sub-title{font-family: 'Kosugi Maru', sans-serif;}
 
+.nav-link{
+  z-index:10000 !important;
+}
+
+/* contact */
+.btn{background-color:#996633;
+
+border-color:#996633;}
+
+
 /* responsive */
 @media screen and (max-width:768px){
 /* hamburgermenu */
@@ -156,6 +166,37 @@ font-weight:bold;
 height:25% !important;
 }
 
+.nav-item{
+  text-align:left;
+  width:40%;
+}
+
+
+/* text-size*/
+.sub-title{
+  font-size:1.1rem;
+}
+
+.introduction-text > h4{
+  font-size:1.1rem;
+}
+
+.introduction-text > h4 >span{
+  font-size:1.4rem;
+}
+
+
+.introduction-text > p{
+  font-size:0.85rem;
+}
+
+.mojideka{
+  font-size:0.85rem;
+}
+
+.Contact> .container >p{
+  font-size:0.85rem;
+}
 /* introduction */
 .img-container{
   display:block;
@@ -183,6 +224,15 @@ line-height:1.8;
 }
 .delete{display:none;}
 
+/* .card */
+.card{ width:90%;
+margin:0 auto;
+}
+.card-text{
+  font-size:0.85rem;
+}
+
+
 .Contact>.container{
   background-color:#f4f4f4;
   border-radius:30%;
@@ -200,4 +250,8 @@ height:10%;
   text-align:center;
 }
 
+
+.top-title{
+  z-index:-10;
+}
 }
